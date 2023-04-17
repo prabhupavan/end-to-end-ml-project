@@ -37,7 +37,7 @@ class ModelTrainer:
                 "Linear Regression": LinearRegression(),
                 "XGBRegressor": XGBRegressor(),
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
-                "Adaoost Regressor": AdaBoostRegressor(),
+                "AdaBoost Regressor": AdaBoostRegressor(),
             }
 
             params={
